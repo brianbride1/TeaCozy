@@ -1,5 +1,9 @@
 html {
     background-color: black;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
 }
 
 nav {
@@ -10,12 +14,34 @@ nav {
 
 #Mission {
     text-decoration: underline;
-    color: white;
 }
 
 .Mission {
     text-align: center;
     background-image: url("img-mission-background.webp");
     height: 700px;
+    width: 1200px;
+    
+}
+
+.mission_text {
+    position: relative;
+    top:50%;
+    vertical-align: middle;
+    background-color: black;
+}
+
+.TeaOfTheMonth {
+    display: flex;
+}
+
+figure {
+    height: 200px;
+    width: 300px;
+    margin: 25px;
+}
+
+.Locations {
+    height: 500px;
     width: 1200px;
 }
