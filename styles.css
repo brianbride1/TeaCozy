@@ -10,4 +10,12 @@ nav {
 
 #Mission {
     text-decoration: underline;
+    color: white;
+}
+
+.Mission {
+    text-align: center;
+    background-image: url("img-mission-background.webp");
+    height: 700px;
+    width: 1200px;
 }
