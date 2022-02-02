@@ -10,6 +10,9 @@ body {
 nav {
     height: 69px;
     border-bottom: 1px solid seashell;
+    position: absolute;
+    top: 0;
+    width: 1300px;
 }
 
 nav img {
@@ -17,14 +20,19 @@ nav img {
     height: 50px;
 }
 
-nav li {
-    text-align: right;
-    text-decoration: underline;
+nav ul {
+    float: right;
 }
 
+nav li {
+    display: inline-block;
+    text-decoration: underline;
+    padding: 10px;
+}
 
 .Mission {
     position: relative;
+    padding: 69px;
     height: 700px;
     width: 1200px;
     
@@ -33,7 +41,6 @@ nav li {
 .mission_text {
     position: absolute;
     background-color: black;
-    color: seashell;
     bottom: 300px;
     width: 1200px;
     text-align: center;
@@ -42,6 +49,9 @@ nav li {
 
 .TeaOfTheMonth {
     width: 1000px;
+    padding-top: 30px;
+    margin-top: 15px;
+    text-align: center;
 }
 
 .fall_berry_blitz {
@@ -58,6 +68,18 @@ nav li {
 .Locations {
     height: 500px;
     width: 1200px;
+    background-image: url("img-locations-background.webp");
+    background-size:cover;
+    padding: 69px;
+    text-align: center;
+}
+
+.downtown {
+    width: 300px;
+    text-align: center;
+    background-color: black;
+    margin: 40px;
+    display: inline-block;
 }
 
 .contact {
