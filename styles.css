@@ -33,13 +33,10 @@ nav {
 
 .TeaOfTheMonth {
     display: flex;
+    max-width: 100px;
 }
 
-figure {
-    height: 200px;
-    width: 300px;
-    margin: 25px;
-}
+
 
 .Locations {
     height: 500px;
